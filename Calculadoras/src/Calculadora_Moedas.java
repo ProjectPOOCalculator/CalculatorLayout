@@ -11,13 +11,19 @@ public class Calculadora_Moedas extends JPanel{
         this.add(painel2);
 
         //criando e adicionando os componentes ao painel1
+        painel1.add(new JLabel("CALCULATOR DÓLAR TO REAL"), BorderLayout.NORTH);
         painel1.add(new JTextArea(2, 10), BorderLayout.NORTH);
-        painel1.add(new JLabel("Insira o valor: em R$"), BorderLayout.WEST);
+        painel1.add(painel2, BorderLayout.CENTER);
 
         //criando e adicionando os componentes ao painel2
         painel2.add(new JLabel("Valor em Dólar:"));
         painel2.add(new JTextField(10));
         painel2.add(new JButton("Calcular"));
+
+        
+        
+
+        
         
     }
 }
