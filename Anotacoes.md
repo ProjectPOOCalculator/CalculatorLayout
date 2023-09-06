@@ -1,1 +1,1 @@
-- Criaremos três tipos de calculadoras: IMC, Juros Compostos e Idade
+- Criaremos três tipos de calculadoras: IMC, Moeda e Idade
