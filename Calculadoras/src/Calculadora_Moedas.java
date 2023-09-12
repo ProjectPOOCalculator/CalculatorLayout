@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.*;
 
 public class Calculadora_Moedas extends JPanel{
     public Calculadora_Moedas() {
