@@ -1,0 +1,10 @@
+Críticos:
+- Implementação de diferentes tipos de layouts.
+- Comparação dos layouts com base em critérios objetivos e subjetivos.
+- Utilização de boas práticas de programação orientada a objetos.
+
+Desejáveis:
+- Funcionalidade correta da calculadora (operações de números e cálculos).
+- Interface visual atraente e intuitiva.
+- Responsividade da interface em diferentes tamanhos de tela.
+- Exploração de outros layouts não mencionados na atividade.
