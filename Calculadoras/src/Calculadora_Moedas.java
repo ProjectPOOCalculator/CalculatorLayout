@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.*;
+import java.util.Set;
+
 
 public class Calculadora_Moedas extends JPanel{
     public Calculadora_Moedas() {
@@ -13,19 +14,26 @@ public class Calculadora_Moedas extends JPanel{
 
         //criando e adicionando os componentes ao painel1
 
-        JLabel label = new JLabel("CALCULATOR DÓLAR TO REAL");
-        painel1.add(label, BorderLayout.NORTH);
-        
-        JTextArea title = new JTextArea(2,10);
-        painel1.add(title, BorderLayout.SOUTH);
 
+        JLabel title = new JLabel("CALCULATOR DÓLAR TO REAL");
+        painel1.add(title, BorderLayout.NORTH);
+        title.setFont(new Font("Arial", Font.PLAIN, 20));
+        
+        JTextArea texto0 = new JTextArea(2,10);
+        painel1.add(texto0, BorderLayout.SOUTH);
 
         //criando e adicionando os componentes ao painel2
         JLabel label2 = new JLabel("Valor em Dólar");
-        painel2.add(label2);
 
+        painel2.add(label2); 
+        label2.setFont(new Font("Arial", Font.PLAIN, 18));
+
+        //customização do texto
         JTextField texto = new JTextField(10);
         painel2.add(texto);
+        texto.setFont(new Font("Arial", Font.PLAIN, 18));
+
+        painel2.add(label2);
 
         //customização do botao1
         JButton botao1 = new JButton("Calcular");
