@@ -4,36 +4,78 @@ import java.awt.*;
 
 public class Calculadora_IMC extends JPanel{
     public Calculadora_IMC() {
+        //criação dos componentes
+        JLabel alturaUsuario = new JLabel("Digite sua altura(m): ");
+        JLabel pesoUsuario = new JLabel("Digite seu peso(kg): ");
+        JTextField campoAltura = new JTextField(10);
+        JTextField campoPeso = new JTextField(10);
+        JButton botaoCalcular = new JButton("Calcular");
+        JLabel resultadoIMC = new JLabel("IMC: ");
+        JTextField campoResultado = new JTextField(10);
+        campoResultado.setEditable(false);
+
+
+
        // Criação dos painéis
-       JPanel painel0 =  new JPanel(new BorderLayout()); // Border Layout
-       this.add(painel0);
-       JPanel painel1 = new JPanel(new BorderLayout()); // Border Layout
-       this.add(painel1);
-       JPanel painel2 = new JPanel(new FlowLayout()); // Flow Layout
-       this.add(painel2);
-       JPanel painel3 = new JPanel(new FlowLayout());
-       this.add(painel3);
+       JPanel painelPrincipal = new JPanel(new BorderLayout()); // Border Layout
+       this.add(painelPrincipal);
+       JPanel painelBotoes = new JPanel();
+       this.add(painelBotoes);
+       JPanel painelInputs = new JPanel(new GridLayout(2, 2));
+      this.add(painelInputs);
+       JPanel painelResultado = new JPanel();
+       this.add(painelResultado);
+    //    JPanel painel5 = new JPanel(new FlowLayout());
+    //    this.add(painel5);
+    //    JPanel painel6 = new JPanel(new GridLayout(2,1));
+       
+       // adicionando os componentes aos painéis
+       painelInputs.add(alturaUsuario);
+       painelInputs.add(pesoUsuario);
+       painelInputs.add(campoAltura);
+       painelInputs.add(campoPeso);
 
-        JLabel titulo = new JLabel("CALCULADORA DE IMC: ");
-       painel0.add(titulo, BorderLayout.NORTH);
+       painelBotoes.add(botaoCalcular);
 
-       JLabel label = new JLabel("digite sua altura: ");
-       painel2.add(label);
+       painelResultado.add(resultadoIMC);
+       painelResultado.add(campoResultado);
 
-       JTextField campo = new JTextField(5);
-       painel2.add(campo);
+       // adicionando os painéis ao painel principal
+       painelPrincipal.add(painelInputs, BorderLayout.NORTH);
+       painelPrincipal.add(painelBotoes, BorderLayout.CENTER);
+       painelPrincipal.add(painelResultado, BorderLayout.SOUTH);
+        
 
-        JLabel label2 = new JLabel("digite seu peso: ");
-       painel3.add(label2);
+       
+    //    painel2.add(alturaUsuario);
 
-       JTextField campo2 = new JTextField(5);
-       painel3.add(campo2);
+       
+    //    painel2.add(campoAltura);
 
-       painel1.add(painel2, BorderLayout.SOUTH);
-       painel1.add(painel3, BorderLayout.NORTH);
-       painel0.add(painel1);
+        
+    //    painel3.add(pesoUsuario);
+
+       
+    //    painel3.add(campoPeso);
 
 
+
+       
+    //    painel4.add(botaoCalcular);
+    //    painel4.setSize(10, 10);
+
+    //    JTextField calculado = new JTextField(15);
+    //    painel5.add(calculado);
+
+       
+
+    // //    painel0.add(painel1);
+    //    painel1.add(painel2, BorderLayout.CENTER);
+    //    painel1.add(painel3, BorderLayout.NORTH);
+       
+    //    painel1.add(painel6, BorderLayout.SOUTH);
+    //    painel6.add(painel4);
+    //    painel6.add(painel5);
 
 
 
@@ -66,6 +108,11 @@ public class Calculadora_IMC extends JPanel{
 
     //    // Configurações do JFrame
        
-    //    setSize(300, 200);
+    //Addind the main panel to the frame
+    
+
+    //Setting the dimension and making the frame visible
+    
+    
     }
 }
