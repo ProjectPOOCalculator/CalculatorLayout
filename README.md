@@ -12,7 +12,6 @@
 
 -
 
-<h2 align="left"> 🗂️ Descrição </h2>
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
@@ -58,6 +57,18 @@
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
+
+## 1. GridBagLayout
+O GridBagLayout é um layout altamente flexível e poderoso. Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. É particularmente útil para interfaces complexas e detalhadas.
+
+## 2. SpringLayout
+O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
+
+## 3. MigLayout
+O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
+
+## 4. AbsoluteLayout
+O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
 
 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
