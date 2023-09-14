@@ -10,7 +10,9 @@
 
 <h3 align="left"> Calculadora Moeda </h3>
 
--
+- O código cria uma aplicação gráfica simples para conversão de valores entre Dólar Americano e Real Brasileiro.
+- A interface é intuitiva, com campos de entrada para valores em Dólar e em Real, botões para calcular e resetar.
+- Além do Layout que foi o principal objeto de estudo, também conseguimos deixar a calculadora funcional, usando funções e o tryCatch para fazer a validação.
 
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
@@ -81,7 +83,7 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
     - GridLayout:
     - FlowLayout:
     - BorderLayout:
-- ADAPTAÇÃO:
+- ADAPTAÇÃO | RESPONSIVIDADE :
     - GridLayout:
     - FlowLayout:
     - BorderLayout:
