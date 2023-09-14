@@ -12,7 +12,6 @@
 
 -
 
-<h2 align="left"> 🗂️ Descrição </h2>
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
@@ -58,6 +57,7 @@
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
+
 ## 1. GridBagLayout
 O GridBagLayout é um layout altamente flexível e poderoso. Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. É particularmente útil para interfaces complexas e detalhadas.
 
