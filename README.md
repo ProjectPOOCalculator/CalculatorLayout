@@ -58,6 +58,86 @@
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
+1. CardLayout
+O CardLayout é um layout que permite alternar entre diferentes componentes em um mesmo espaço. Cada componente é tratado como um "cartão", e apenas um deles é visível por vez. É útil para interfaces que necessitam de navegação entre diferentes telas ou painéis.
+
+Exemplo de uso:
+CardLayout cardLayout = new CardLayout();
+JPanel cards = new JPanel(cardLayout);
+
+// Adicionando "cartões"
+cards.add(new JPanel(), "card1");
+cards.add(new JPanel(), "card2");
+
+// Para alternar entre os cartões
+cardLayout.show(cards, "card1");
+
+
+2. BoxLayout
+O BoxLayout organiza os componentes em uma única linha, podendo ser na vertical ou horizontal. É útil para criar interfaces simples e organizadas, principalmente em barras de ferramentas ou menus.
+
+Exemplo de uso:
+JPanel boxPanel = new JPanel();
+boxPanel.setLayout(new BoxLayout(boxPanel, BoxLayout.Y_AXIS)); // Ou BoxLayout.X_AXIS para horizontal
+
+// Adicionando componentes
+boxPanel.add(new JButton("Botão 1"));
+boxPanel.add(new JButton("Botão 2"));
+
+
+Relatório sobre Tipos de Layouts em Java
+Neste relatório, serão apresentados alguns dos principais tipos de layouts utilizados no desenvolvimento de interfaces gráficas em Java, além dos já mencionados BorderLayout, FlowLayout e GridLayout.
+
+1. CardLayout
+O CardLayout é um layout que permite alternar entre diferentes componentes em um mesmo espaço. Cada componente é tratado como um "cartão", e apenas um deles é visível por vez. É útil para interfaces que necessitam de navegação entre diferentes telas ou painéis.
+
+Exemplo de uso:
+
+java
+Copy code
+CardLayout cardLayout = new CardLayout();
+JPanel cards = new JPanel(cardLayout);
+
+// Adicionando "cartões"
+cards.add(new JPanel(), "card1");
+cards.add(new JPanel(), "card2");
+
+// Para alternar entre os cartões
+cardLayout.show(cards, "card1");
+2. BoxLayout
+O BoxLayout organiza os componentes em uma única linha, podendo ser na vertical ou horizontal. É útil para criar interfaces simples e organizadas, principalmente em barras de ferramentas ou menus.
+
+Exemplo de uso:
+
+java
+Copy code
+JPanel boxPanel = new JPanel();
+boxPanel.setLayout(new BoxLayout(boxPanel, BoxLayout.Y_AXIS)); // Ou BoxLayout.X_AXIS para horizontal
+
+// Adicionando componentes
+boxPanel.add(new JButton("Botão 1"));
+boxPanel.add(new JButton("Botão 2"));
+3. GroupLayout
+O GroupLayout é um layout flexível que permite definir relações de tamanho entre os componentes. Ele se adapta bem a interfaces complexas e dinâmicas. É geralmente construído através de ferramentas visuais como o GroupLayout no NetBeans IDE.
+
+Exemplo de uso (gerado pelo NetBeans IDE):
+GroupLayout layout = new GroupLayout(jPanel1);
+jPanel1.setLayout(layout);
+layout.setHorizontalGroup(
+    layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+    .addGroup(layout.createSequentialGroup()
+        .addGap(25, 25, 25)
+        .addComponent(jButton1)
+        .addContainerGap(20, Short.MAX_VALUE))
+);
+layout.setVerticalGroup(
+    layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+    .addGroup(layout.createSequentialGroup()
+        .addGap(30, 30, 30)
+        .addComponent(jButton1)
+        .addContainerGap(35, Short.MAX_VALUE))
+);
+
 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
 
