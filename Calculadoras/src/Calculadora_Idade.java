@@ -29,7 +29,7 @@ public class Calculadora_Idade extends JPanel {
         resultCalculation = new JLabel();
 
         result = new JTextField(6);
-        Font font = new Font("Arial", Font.BOLD, 30);
+        Font font = new Font("Arial", Font.BOLD, 15);
         result.setFont(font);
 
         // Adicionando os componenetes ao painel principal
