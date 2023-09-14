@@ -1,5 +1,4 @@
 import javax.swing.*;
-<<<<<<< HEAD
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,19 +10,12 @@ public class Calculadora_Idade extends JPanel {
     public JButton buttonCalculate;
     public JLabel resultCalculation;
     public JTextField result;
-=======
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-public class Calculadora_Idade extends JPanel {
->>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
 
     public Calculadora_Idade() {
         super();
         // Instaciando e adicionando um painel ao Frame
         JPanel panelPrincipal = new JPanel();
         this.add(panelPrincipal);
-<<<<<<< HEAD
         JPanel secondPanel = new JPanel();
         this.add(secondPanel);
 
@@ -39,30 +31,15 @@ public class Calculadora_Idade extends JPanel {
         result = new JTextField(6);
         Font font = new Font("Arial", Font.BOLD, 30);
         result.setFont(font);
-=======
-
-        // Criando os componentes e adicionando rótulos
-        JLabel birthDate = new JLabel("Digite a data de nascimento (dd/mm/aaaa)");
-
-        JTextField inputBirthDate = new JTextField(6);
-
-        JButton buttonCalculate = new JButton("Calcular");
-
-        JLabel resutCalculation = new JLabel();
->>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
 
         // Adicionando os componenetes ao painel principal
         panelPrincipal.add(birthDate);
         panelPrincipal.add(inputBirthDate);
         panelPrincipal.add(buttonCalculate);
-<<<<<<< HEAD
         panelPrincipal.add(resultCalculation);
 
         secondPanel.add(resultCalculation);
         secondPanel.add(result);
-=======
-        panelPrincipal.add(resutCalculation);
->>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
 
         // Criando uma ação para o button
         buttonCalculate.addActionListener(new ActionListener() {
@@ -70,7 +47,6 @@ public class Calculadora_Idade extends JPanel {
                 calculateAge();
             }
         });
-<<<<<<< HEAD
     }
 
     public void calculateAge() {
@@ -100,7 +76,5 @@ public class Calculadora_Idade extends JPanel {
         } catch (Exception ex) {
             result.setText("Erro ao calcular. Verifique se a digitação está correta.");
         }
-=======
->>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
     }
 }
