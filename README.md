@@ -58,19 +58,17 @@
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
-1. CardLayout
-O CardLayout é um layout que permite alternar entre diferentes componentes em um mesmo espaço. Cada componente é tratado como um "cartão", e apenas um deles é visível por vez. É útil para interfaces que necessitam de navegação entre diferentes telas ou painéis.
+## 1. GridBagLayout
+O GridBagLayout é um layout altamente flexível e poderoso. Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. É particularmente útil para interfaces complexas e detalhadas.
 
-Exemplo de uso:
-CardLayout cardLayout = new CardLayout();
-JPanel cards = new JPanel(cardLayout);
+## 2. SpringLayout
+O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
 
-// Adicionando "cartões"
-cards.add(new JPanel(), "card1");
-cards.add(new JPanel(), "card2");
+## 3. MigLayout
+O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
 
-// Para alternar entre os cartões
-cardLayout.show(cards, "card1");
+## 4. AbsoluteLayout
+O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
 
 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
