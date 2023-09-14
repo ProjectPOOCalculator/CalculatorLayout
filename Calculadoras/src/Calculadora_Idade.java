@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.Font;
 <<<<<<< HEAD
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -14,8 +15,14 @@ public class Calculadora_Idade extends JPanel {
 =======
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Calculadora_Idade extends JPanel {
+    public JTextField inputBirthDate;
+    public JButton buttonCalculate;
+    public JLabel resultCalculation;
+    public JTextField result;
 >>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
 
     public Calculadora_Idade() {
@@ -23,6 +30,8 @@ public class Calculadora_Idade extends JPanel {
         // Instaciando e adicionando um painel ao Frame
         JPanel panelPrincipal = new JPanel();
         this.add(panelPrincipal);
+        JPanel secondPanel = new JPanel();
+        this.add(secondPanel);
 <<<<<<< HEAD
         JPanel secondPanel = new JPanel();
         this.add(secondPanel);
@@ -42,12 +51,17 @@ public class Calculadora_Idade extends JPanel {
 =======
 
         // Criando os componentes e adicionando rótulos
-        JLabel birthDate = new JLabel("Digite a data de nascimento (dd/mm/aaaa)");
+        JLabel birthDate = new JLabel("Digite a data de nascimento (dd/mm/yyyy)");
 
-        JTextField inputBirthDate = new JTextField(6);
+        inputBirthDate = new JTextField(6);
 
-        JButton buttonCalculate = new JButton("Calcular");
+        buttonCalculate = new JButton("Calcular");
 
+        resultCalculation = new JLabel();
+
+        result = new JTextField(6);
+        Font font = new Font("Arial", Font.BOLD, 30);
+        result.setFont(font);
         JLabel resutCalculation = new JLabel();
 >>>>>>> f1f3b72193e2c6b7cf3790ba3e7b6baf9a19f191
 
@@ -55,6 +69,10 @@ public class Calculadora_Idade extends JPanel {
         panelPrincipal.add(birthDate);
         panelPrincipal.add(inputBirthDate);
         panelPrincipal.add(buttonCalculate);
+        panelPrincipal.add(resultCalculation);
+
+        secondPanel.add(resultCalculation);
+        secondPanel.add(result);
 <<<<<<< HEAD
         panelPrincipal.add(resultCalculation);
 
