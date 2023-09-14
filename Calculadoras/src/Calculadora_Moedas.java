@@ -14,12 +14,14 @@ public class Calculadora_Moedas extends JPanel {
         this.add(painelPrincipal);
         JPanel painelInput = new JPanel(new GridLayout(2, 2)); // grid layout
         this.add(painelInput);
-        JPanel painelOutput = new JPanel();
+        JPanel painelOutput = new JPanel(new FlowLayout()); //flow layout
         this.add(painelOutput);
         JPanel painelBotao = new JPanel();
         this.add(painelBotao);
 
         // Criando os componentes
+
+        // Campos Escritos
         JLabel qntDolar = new JLabel("Dólar Americano: ");
         qntDolar.setFont(new Font("Arial", Font.PLAIN, 16));
         qntDolar.setForeground(Color.black);
@@ -45,11 +47,10 @@ public class Calculadora_Moedas extends JPanel {
         realResultado.setHorizontalAlignment(JLabel.CENTER);
         realResultado.setVerticalAlignment(JLabel.CENTER);
 
+        // Campos de Texto
         JTextField campoReal = new JTextField(10);
         campoReal.setFont(new Font("Arial", Font.PLAIN, 14));
         campoReal.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-
-
 
         JTextField campoDolar = new JTextField(10);
         campoDolar.setFont(new Font("Arial", Font.PLAIN, 14));
@@ -60,26 +61,33 @@ public class Calculadora_Moedas extends JPanel {
         campoResultado.setBorder(new LineBorder(Color.GRAY));
         campoResultado.setFont(new Font("Arial", Font.PLAIN, 16));
 
+        // Botões
         JButton calcular = new JButton("Calcular 🔄");
         JButton resetar = new JButton("Resetar 🔁");
     
 
         // Adicionando os elementos aos painéis
+
+        // Painel Input
         painelInput.add(qntDolar);
         painelInput.add(campoDolar);
         painelInput.add(realAtual);
         painelInput.add(campoReal);
 
+        // Painel Output
         painelOutput.add(realResultado);
         painelOutput.add(campoResultado);
         painelOutput.add(resetar);
 
+        // Painel Botão
         painelBotao.add(calcular);
 
+        // Painel Principal
         painelPrincipal.add(painelInput, BorderLayout.NORTH);
         painelPrincipal.add(painelBotao, BorderLayout.CENTER);
         painelPrincipal.add(painelOutput, BorderLayout.SOUTH);
 
+        // Função para calcular o resultado da conversão
         calcular.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -98,6 +106,7 @@ public class Calculadora_Moedas extends JPanel {
             }
         });
 
+        // Função para limpar os campos
         resetar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 campoReal.setText("");
