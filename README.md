@@ -3,16 +3,19 @@
 <h2 align="left"> 🧠 Projetos </h2>
 <h3 align="left"> Calculadora Idade </h3>
 
-- 
+- <a href="Calculadoras/Relatórios/CalculadoraIdade.md">Relatório Calculadora Idade</a> 
+
+
 <h3 align="left"> Calculadora IMC </h3>
 
--
+- <a href="Calculadoras/Relatórios/CalculadoraIMC.md">Relatório Calculadora IMC</a> 
 
 <h3 align="left"> Calculadora Moeda </h3>
 
 - O código cria uma aplicação gráfica simples para conversão de valores entre Dólar Americano e Real Brasileiro.
 - A interface é intuitiva, com campos de entrada para valores em Dólar e em Real, botões para calcular e resetar.
 - Além do Layout que foi o principal objeto de estudo, também conseguimos deixar a calculadora funcional, usando funções e o tryCatch para fazer a validação.
+- <a href="Calculadoras/Relatórios/CalculadoraMoeda.md">Relatório Calculadora Moeda</a> 
 
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
