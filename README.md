@@ -7,6 +7,12 @@
       
 <h2 align="left"> 🗂️ Descrição </h2>
 
+<h2 align="left"> 🧠 Projetos </h2>
+<h3 align="left"> Calculadora Idade </h3>
+<h3 align="left"> Calculadora IMC </h3>
+<h3 align="left"> Calculadora Moeda </h3>
+
+
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
 <h3 align="left"> GridLayout: </h3>
@@ -53,6 +59,31 @@
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
+
+- ORGANIZAÇÃO:
+    - GridLayout:
+    - FlowLayout:
+    - BorderLayout:
+- FLEXIBILIDADE:
+    - GridLayout:
+    - FlowLayout:
+    - BorderLayout:
+- ADAPTAÇÃO:
+    - GridLayout:
+    - FlowLayout:
+    - BorderLayout:
+- CASO DE USO:
+    - GridLayout:
+    - FlowLayout:
+    - BorderLayout:
+
+- CONCLUSÃO:
+  - GridLayout:
+    - Ótimo para organização tabular e uniforme de componentes, especialmente útil para exibir dados em uma estrutura de tabela.
+  - FlowLayout:
+    - Simples e eficaz para organizar componentes em linha, sendo útil em situações onde a organização linear é suficiente.
+  - BorderLayout:
+    - Excelente para janelas principais onde diferentes áreas têm diferentes níveis de importância.
 
 <h2 align="left"> 🛠️ Funcionalidades </h2>
 
