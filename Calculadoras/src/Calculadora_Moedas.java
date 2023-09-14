@@ -41,7 +41,7 @@ public class Calculadora_Moedas extends JPanel{
         botao1.setBackground(Color.GRAY);
         botao1.setFont(new Font("Arial", Font.BOLD, 16));
 
-        //adicionando o painel 2 ao painel 1
+        //adicionando o painel 2 ao painel 1.0
         painel1.add(painel2, BorderLayout.CENTER);
 
     }
