@@ -1,4 +1,7 @@
 import javax.swing.*;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,8 +17,10 @@ public class Calculadora_Idade extends JPanel {
     public Calculadora_Idade() {
         super();
         // Instaciando e adicionando um painel ao Frame
-        JPanel panelPrincipal = new JPanel();
-        this.add(panelPrincipal);
+        JPanel mainPanel = new JPanel(new BorderLayout());
+        this.add(mainPanel);
+        JPanel firstPanel = new JPanel();
+        this.add(firstPanel);
         JPanel secondPanel = new JPanel();
         this.add(secondPanel);
 
@@ -25,21 +30,31 @@ public class Calculadora_Idade extends JPanel {
         inputBirthDate = new JTextField(6);
 
         buttonCalculate = new JButton("Calcular");
-
-        resultCalculation = new JLabel();
-
+        buttonCalculate.setBackground(Color.green);
+        
         result = new JTextField(6);
+        result.setEditable(false);
+        result.setHorizontalAlignment(JLabel.CENTER);
         Font font = new Font("Arial", Font.BOLD, 30);
         result.setFont(font);
 
-        // Adicionando os componenetes ao painel principal
-        panelPrincipal.add(birthDate);
-        panelPrincipal.add(inputBirthDate);
-        panelPrincipal.add(buttonCalculate);
-        panelPrincipal.add(resultCalculation);
+        resultCalculation = new JLabel();
 
+        // Adicionando os componenetes ao painel principal
+        mainPanel.add(firstPanel, BorderLayout.NORTH);
+        mainPanel.add(secondPanel, BorderLayout.SOUTH);
+
+        // Adicionando os componenetes ao firstPanel
+        firstPanel.add(birthDate);
+        firstPanel.add(inputBirthDate);
+        firstPanel.add(buttonCalculate);
+        firstPanel.add(resultCalculation);
+
+        // Adicionando os componenetes ao secondPanel
         secondPanel.add(resultCalculation);
         secondPanel.add(result);
+
+        
 
         // Criando uma ação para o button
         buttonCalculate.addActionListener(new ActionListener() {
@@ -74,7 +89,7 @@ public class Calculadora_Idade extends JPanel {
             // Setando o resultado da
             result.setText(years + " anos.");
         } catch (Exception ex) {
-            result.setText("Erro ao calcular. Verifique se a digitação está correta.");
+            JOptionPane.showMessageDialog(this, "Erro ao calcular idade: " + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
 }
