@@ -47,20 +47,18 @@ public class Calculadora_Moedas extends JPanel {
 
         JTextField campoReal = new JTextField(10);
         campoReal.setFont(new Font("Arial", Font.PLAIN, 14));
-        //campoReal.setForeground(Color.BLUE);
-        //campoReal.setBackground(Color.YELLOW);
-        campoReal.setColumns(10);
         campoReal.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-        campoReal.setMargin(new Insets(5, 5, 5, 5));
-        campoReal.setText("Valor do Dólar Atual");
-
 
 
 
         JTextField campoDolar = new JTextField(10);
+        campoDolar.setFont(new Font("Arial", Font.PLAIN, 14));
+        campoDolar.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+
         JTextField campoResultado = new JTextField(10);
         campoResultado.setEditable(false);
         campoResultado.setBorder(new LineBorder(Color.GRAY));
+        campoResultado.setFont(new Font("Arial", Font.PLAIN, 16));
 
         JButton calcular = new JButton("Calcular 🔄");
         JButton resetar = new JButton("Resetar 🔁");
