@@ -7,9 +7,10 @@
       
 <h3 align="left"> 🗂️ Descrição </h3>
 
-<h3 align="left"> ⚙️ Tipos de Layouts </h3>
+<h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
-- GRIDLAYOUT:
+<h3 align="left"> GridLayout: </h3>
+
   - Organização em Grade:
       - Facilita a organização dos componentes em um número determinado de linhas e colunas, o que é útil para interfaces de usuário que exigem uma disposição tabular.
   - Alinhamento Uniforme:
@@ -21,11 +22,20 @@
   - Ordem não se altera:
       - Os componentes mantêm sua posição relativa mesmo quando a janela é redimensionada.
 
-- FLOWLAYOUT:
-  - dsf 
-  - fsdf
+<h3 align="left"> FLowLayout: </h3>
+
+  - Organização Simples: 
+    - Organiza os componentes em uma linha, adicionando-os da esquerda para a direita.
+  - Adaptação em Diferentes Telas:
+    - Os componentes são dispostos em linha, mas a altura da linha é ajustada automaticamente para acomodar os componentes adicionados.
+  - Responsividade:
+      - Se a janela for redimensionada, os componentes manterão sua ordem.
+  - Solução Rápida:
+      - É útil quando você precisa criar interfaces rapidamente sem se preocupar com o posicionamento preciso de cada componente.
+  - Alinhamento Personalizado:
+      - Embora os componentes sejam adicionados da esquerda para a direita, você ainda pode ajustar o alinhamento vertical ou horizontal de cada componente.
     
-- BORDERLAYOUT:
+<h3 align="left"> BorderLayout: </h3>
   - dsf 
   - fsdf
 
