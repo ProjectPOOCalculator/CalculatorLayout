@@ -40,10 +40,6 @@ public class Calculadora_Idade extends JPanel {
 
         secondPanel.add(resultCalculation);
         secondPanel.add(result);
-        panelPrincipal.add(resultCalculation);
-
-        secondPanel.add(resultCalculation);
-        secondPanel.add(result);
 
         // Criando uma ação para o button
         buttonCalculate.addActionListener(new ActionListener() {
