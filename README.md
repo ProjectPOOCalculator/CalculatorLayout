@@ -58,6 +58,19 @@
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
 <h2 align="left"> 💡 Outros tipos de Layouts </h2>
+1. CardLayout
+O CardLayout é um layout que permite alternar entre diferentes componentes em um mesmo espaço. Cada componente é tratado como um "cartão", e apenas um deles é visível por vez. É útil para interfaces que necessitam de navegação entre diferentes telas ou painéis.
+
+Exemplo de uso:
+CardLayout cardLayout = new CardLayout();
+JPanel cards = new JPanel(cardLayout);
+
+// Adicionando "cartões"
+cards.add(new JPanel(), "card1");
+cards.add(new JPanel(), "card2");
+
+// Para alternar entre os cartões
+cardLayout.show(cards, "card1");
 
 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
