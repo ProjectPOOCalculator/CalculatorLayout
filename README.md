@@ -5,7 +5,7 @@
 - [x] Calculadora de Idades
 - [x] Calculadora de Moedas
       
-<h3 align="left"> 🗂️ Descrição </h3>
+<h2 align="left"> 🗂️ Descrição </h2>
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
@@ -36,12 +36,27 @@
       - Embora os componentes sejam adicionados da esquerda para a direita, você ainda pode ajustar o alinhamento vertical ou horizontal de cada componente.
     
 <h3 align="left"> BorderLayout: </h3>
-  - dsf 
-  - fsdf
 
-<h3 align="left"> 🎯 Comparação dos Layouts </h3>
+  - Fácilidade de Uso:
+    - Basta adicionar componentes à janela e definir a direção.
+  - Organização Hierárquica:
+    - É útil quando você tem componentes que são de importância hierárquica diferente.
+  - Responsividade:
+    - Se ajusta automaticamente quando a janela é redimensionada, mantendo a hierarquia entre os componentes.
+  - Janelas Principais:
+    - É frequentemente usado para janelas principais ou painéis de aplicativos.
+  - Alinhamento Automático:
+    - Os componentes são alinhados automaticamente dentro de suas regiões.
+  - Janelas Maximizadas:
+    - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
-<h3 align="left"> 🙋 Autores </h3>
+<h2 align="left"> 💡 Outros tipos de Layouts </h2>
+
+<h2 align="left"> 🎯 Comparação dos Layouts </h2>
+
+<h2 align="left"> 🛠️ Funcionalidades </h2>
+
+<h2 align="left"> 🙋 Autores </h2>
 
 - Luigi
 - Rafael de Sousa Moura
