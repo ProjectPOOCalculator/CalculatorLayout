@@ -1,17 +1,18 @@
 <h2 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h2>
 
-  
-- [x] Calculadora de IMC
-- [x] Calculadora de Idades
-- [x] Calculadora de Moedas
-      
-<h2 align="left"> 🗂️ Descrição </h2>
-
 <h2 align="left"> 🧠 Projetos </h2>
 <h3 align="left"> Calculadora Idade </h3>
+
+- 
 <h3 align="left"> Calculadora IMC </h3>
+
+-
+
 <h3 align="left"> Calculadora Moeda </h3>
 
+-
+
+<h2 align="left"> 🗂️ Descrição </h2>
 
 <h2 align="left"> ⚙️ Tipos de Layouts </h2>
 
@@ -84,8 +85,6 @@
     - Simples e eficaz para organizar componentes em linha, sendo útil em situações onde a organização linear é suficiente.
   - BorderLayout:
     - Excelente para janelas principais onde diferentes áreas têm diferentes níveis de importância.
-
-<h2 align="left"> 🛠️ Funcionalidades </h2>
 
 <h2 align="left"> 🙋 Autores </h2>
 
