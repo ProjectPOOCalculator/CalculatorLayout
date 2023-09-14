@@ -36,6 +36,7 @@ public class Calculadora_Idade extends JPanel {
         result.setEditable(false);
         result.setHorizontalAlignment(JLabel.CENTER);
         Font font = new Font("Arial", Font.BOLD, 30);
+
         result.setFont(font);
 
         resultCalculation = new JLabel();
