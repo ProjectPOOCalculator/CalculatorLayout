@@ -1,6 +1,6 @@
-<h2 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h2>
+<h1 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h1>
 
-<h2 align="left"> 📃 Descrição dos Projetos </h2>
+<h2 align="left"> 📃 DESCRIÇÃO DOS PROJETOS </h2>
 
 <h3 align="left"> Calculadora Idade </h3>
 
@@ -19,7 +19,7 @@
 - <a href="Calculadoras/Relatórios/CalculadoraMoeda.md">Relatório Calculadora Moeda</a> 
 
 
-<h2 align="left"> ⚙️ Tipos de Layouts </h2>
+<h2 align="left"> ⚙️ TIPOS DE LAYOUTS </h2>
 
 <h3 align="left"> GridLayout: </h3>
 
@@ -62,22 +62,31 @@
   - Janelas Maximizadas:
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
-<h2 align="left"> 💡 Outros tipos de Layouts </h2>
+<h2 align="left"> 💡 OUTROS TIPOS DE LAYOUT </h2>
 
-## 1. GridBagLayout
-O GridBagLayout é um layout altamente flexível e poderoso. Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. É particularmente útil para interfaces complexas e detalhadas.
+<h3 align="left"> GridBagLayout: </h3> 
 
-## 2. SpringLayout
-O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
+  - O GridBagLayout é um layout altamente flexível e poderoso. 
+  - Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. 
+  - É particularmente útil para interfaces complexas e detalhadas.
 
-## 3. MigLayout
-O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
+<h3 align="left"> SpringLayout: </h3> 
 
-## 4. AbsoluteLayout
-O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
+  - O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. 
+  - Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
+
+<h3 align="left"> MigLayout: </h3> 
+
+  - O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. 
+  - Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
+
+ <h3 align="left"> AbsoluteLayout: </h3>
+ 
+  - O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. 
+  - Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
 
 
-<h2 align="left"> 🎯 Comparação dos Layouts </h2>
+<h2 align="left"> 🎯 COMPARAÇÃO DOS LAYOUTS </h2>
 
 - ORGANIZAÇÃO:
     - GridLayout: Componentes são organizados em uma grade com um número fixo de linhas e colunas.
@@ -107,7 +116,7 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
 
 <h2 align="center"> Relatório Calculadora Moedas 💰 </h2>
 
-<h2 align="left"> Detalhes do Código ⚙️ </h2>
+<h2 align="left"> DETALHES DO CÓDIGO ⚙️ </h2>
 
 - Bibliotecas:
     - JavaSwing (javax.swing.*)
@@ -158,7 +167,7 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
 <h2 align="center"> Relatório Calculadora IMC ⚖️ </h2>
 
 
-<h2 align="left"> 🙋 Autores </h2>
+<h2 align="left"> 🙋 AUTORES </h2>
 
 - Luigi
 - Rafael de Sousa Moura
