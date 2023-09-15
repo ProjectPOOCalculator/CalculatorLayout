@@ -1,6 +1,7 @@
 <h2 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h2>
 
-<h2 align="left"> 🧠 Projetos </h2>
+<h2 align="left"> 📃 Descrição dos Projetos </h2>
+
 <h3 align="left"> Calculadora Idade </h3>
 
 - <a href="Calculadoras/Relatórios/CalculadoraIdade.md">Relatório Calculadora Idade</a> 
