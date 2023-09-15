@@ -104,6 +104,34 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
   - BorderLayout:
     - Excelente para janelas principais onde diferentes áreas têm diferentes níveis de importância.
 
+
+<h2 align="center"> Relatório Calculadora Moedas 💰 </h2>
+
+<h2 align="left"> Detalhes do Código ⚙️ </h2>
+
+- Bibliotecas:
+    - JavaSwing (javax.swing.*)
+    - JavaAWT (java.awt.*)
+- Layouts:
+    - GridLayout
+    - FlowLayout
+    - BorderLayout
+- Classe:
+    - Calculadora_idade
+    - extends JPanel - a classe Calculadora_idade herda os comportamentos e propriedades de JPanel que é um componente da biblioteca JavaSwing e serve como contêiner para a organização dos componentes.
+- Painéis | Contêiner:
+- Componentes:
+- Estilização:
+- Botão Calcular:
+- Botão Resetar:
+- Exceptions | try-catch:
+- Organização:
+
+<h2 align="center"> Relatório Calculadora Idade 📅 </h2>
+
+<h2 align="center"> Relatório Calculadora IMC ⚖️ </h2>
+
+
 <h2 align="left"> 🙋 Autores </h2>
 
 - Luigi
