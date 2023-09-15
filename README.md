@@ -80,21 +80,21 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
 <h2 align="left"> 🎯 Comparação dos Layouts </h2>
 
 - ORGANIZAÇÃO:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
+    - GridLayout: Componentes são organizados em uma grade com um número fixo de linhas e colunas.
+    - FlowLayout: Componentes são dispostos em linha, adicionando-os da esquerda para a direita. Quando a linha fica cheia, os componentes continuam na próxima linha.
+    - BorderLayout: Divide a área em cinco regiões: norte, sul, leste, oeste e centro. Cada componente é adicionado a uma dessas regiões.
 - FLEXIBILIDADE:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
+    - GridLayout: Permite definir o número de linhas e colunas na grade.
+    - FlowLayout: ...
+    - BorderLayout: Permite definir as regiões para disposição dos componentes.
 - ADAPTAÇÃO | RESPONSIVIDADE :
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
-- CASO DE USO:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
+    - GridLayout: Os componentes se ajustam automaticamente à medida que a janela é redimensionada.
+    - FlowLayout: A altura da linha é ajustada automaticamente para acomodar os componentes adicionados.
+    - BorderLayout: Mantém a organização mesmo quando a janela é redimensionada.
+- ALINHAMENTO:
+    - GridLayout: Componentes são todos do mesmo tamanho e são alinhados uniformemente.
+    - FlowLayout: Pode haver variações no alinhamento horizontal ou vertical.
+    - BorderLayout: Componentes em cada região mantêm o alinhamento automático, mas as regiões podem ter diferentes tamanhos.
 
 - CONCLUSÃO:
   - GridLayout:
@@ -125,16 +125,21 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
     - painelOutput:
     - painelBotao:
 - Componentes:
-    - JLabel:
-    - JTextField:
-    - JButton:
+    - JLabel
+    - JTextField
+    - JButton
 - Estilização:
-    - 
+    - setfont
+    - setForeground
+    - setBackground
+    - setHorizontalAlignment
+    - setVerticalAlignment
 - Botão Calcular:
-    -
-    -
+    - É adicionado um ActionListener ao botão "Calcular". Quando o botão é pressionado, o código do método actionPerformed é executado.
+    - O código dentro deste método lida com a conversão de valores inseridos pelo usuário, realiza o cálculo e exibe o resultado.
 - Botão Resetar:
-    - 
+    - Similar ao botão "Calcular", o botão "Resetar" também tem um ActionListener associado.
+    - Quando pressionado, ele limpa os campos de input e output.
 - Exceptions | try-catch:
     - Dentro do bloco try-catch, o código lida com a possibilidade de o usuário inserir valores inválidos (não numéricos).
 - Organização:
