@@ -120,12 +120,33 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
     - Calculadora_idade
     - extends JPanel - a classe Calculadora_idade herda os comportamentos e propriedades de JPanel que é um componente da biblioteca JavaSwing e serve como contêiner para a organização dos componentes.
 - Painéis | Contêiner:
+    - painelPrincipal:
+    - painelInput:
+    - painelOutput:
+    - painelBotao:
 - Componentes:
+    - JLabel:
+    - JTextField:
+    - JButton:
 - Estilização:
+    - 
 - Botão Calcular:
+    -
+    -
 - Botão Resetar:
+    - 
 - Exceptions | try-catch:
+    - Dentro do bloco try-catch, o código lida com a possibilidade de o usuário inserir valores inválidos (não numéricos).
 - Organização:
+    - Para organizar melhor o código decidimos organizar da seguinte maneira:
+        - Criação dos painéis.
+        - Criação dos Componentes.
+            - Estilização dos componentes.
+        - Criação dos Botões.
+            - Estilização dos Botões.
+        - Adição dos elementos aos Painéis.
+        - Funções para Calcular.
+    - Além disso o código todo está comentado para melhor entendimento e compreensão no momento de debugar.
 
 <h2 align="center"> Relatório Calculadora Idade 📅 </h2>
 
