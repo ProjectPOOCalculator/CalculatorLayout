@@ -208,4 +208,4 @@ Para futuras melhorias, pode-se considerar a adição de validações adicionais
 
 - Luigi
 - Rafael de Sousa Moura
-- Vinícius
+- Vinícius Granço Feitoza
