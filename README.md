@@ -1,19 +1,25 @@
-<h2 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h2>
+<h1 align="center"> Projeto de Programação Orientada a Objetos | Java | Layout AWT | GUI Swing</h1>
 
-<h2 align="left"> 🧠 Projetos </h2>
+<h2 align="left"> 📃 DESCRIÇÃO DOS PROJETOS </h2>
+
 <h3 align="left"> Calculadora Idade </h3>
 
-- 
+- <a href="Calculadoras/Relatórios/CalculadoraIdade.md">Relatório Calculadora Idade</a> 
+
+
 <h3 align="left"> Calculadora IMC </h3>
 
--
+- <a href="Calculadoras/Relatórios/CalculadoraIMC.md">Relatório Calculadora IMC</a> 
 
 <h3 align="left"> Calculadora Moeda </h3>
 
--
+- O código cria uma aplicação gráfica simples para conversão de valores entre Dólar Americano e Real Brasileiro.
+- A interface é intuitiva, com campos de entrada para valores em Dólar e em Real, botões para calcular e resetar.
+- Além do Layout que foi o principal objeto de estudo, também conseguimos deixar a calculadora funcional, usando funções e o tryCatch para fazer a validação.
+- <a href="Calculadoras/Relatórios/CalculadoraMoeda.md">Relatório Calculadora Moeda</a> 
 
 
-<h2 align="left"> ⚙️ Tipos de Layouts </h2>
+<h2 align="left"> ⚙️ TIPOS DE LAYOUTS </h2>
 
 <h3 align="left"> GridLayout: </h3>
 
@@ -56,39 +62,48 @@
   - Janelas Maximizadas:
     - É eficaz quando a janela é maximizada, pois mantém a organização das regiões.
 
-<h2 align="left"> 💡 Outros tipos de Layouts </h2>
+<h2 align="left"> 💡 OUTROS TIPOS DE LAYOUT </h2>
 
-## 1. GridBagLayout
-O GridBagLayout é um layout altamente flexível e poderoso. Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. É particularmente útil para interfaces complexas e detalhadas.
+<h3 align="left"> GridBagLayout: </h3> 
 
-## 2. SpringLayout
-O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
+  - O GridBagLayout é um layout altamente flexível e poderoso. 
+  - Ele permite posicionar os componentes em linhas e colunas, mas com grande controle sobre a disposição e o tamanho de cada componente. 
+  - É particularmente útil para interfaces complexas e detalhadas.
 
-## 3. MigLayout
-O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
+<h3 align="left"> SpringLayout: </h3> 
 
-## 4. AbsoluteLayout
-O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
+  - O SpringLayout é um layout que utiliza molas (springs) para definir as relações de posicionamento entre os componentes. 
+  - Ele oferece um alto nível de controle sobre o posicionamento e o redimensionamento dos componentes, sendo adequado para interfaces que requerem ajustes precisos.
+
+<h3 align="left"> MigLayout: </h3> 
+
+  - O MigLayout é um layout de terceiros muito popular que combina simplicidade com uma grande capacidade de personalização. 
+  - Ele se adapta bem a uma ampla variedade de interfaces e oferece uma sintaxe expressiva para definir a disposição dos componentes.
+
+ <h3 align="left"> AbsoluteLayout: </h3>
+ 
+  - O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, fornecendo um controle absoluto sobre a posição de cada elemento. 
+  - Embora ofereça precisão no posicionamento, pode ser menos flexível em termos de adaptação a diferentes tamanhos de tela.
 
 
-<h2 align="left"> 🎯 Comparação dos Layouts </h2>
+<h2 align="left"> 🎯 COMPARAÇÃO DOS LAYOUTS </h2>
 
 - ORGANIZAÇÃO:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
+    - GridLayout: Componentes são organizados em uma grade com um número fixo de linhas e colunas.
+    - FlowLayout: Componentes são dispostos em linha, adicionando-os da esquerda para a direita. Quando a linha fica cheia, os componentes continuam na próxima linha.
+    - BorderLayout: Divide a área em cinco regiões: norte, sul, leste, oeste e centro. Cada componente é adicionado a uma dessas regiões.
 - FLEXIBILIDADE:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
-- ADAPTAÇÃO:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
-- CASO DE USO:
-    - GridLayout:
-    - FlowLayout:
-    - BorderLayout:
+    - GridLayout: Permite definir o número de linhas e colunas na grade.
+    - FlowLayout: ...
+    - BorderLayout: Permite definir as regiões para disposição dos componentes.
+- ADAPTAÇÃO | RESPONSIVIDADE :
+    - GridLayout: Os componentes se ajustam automaticamente à medida que a janela é redimensionada.
+    - FlowLayout: A altura da linha é ajustada automaticamente para acomodar os componentes adicionados.
+    - BorderLayout: Mantém a organização mesmo quando a janela é redimensionada.
+- ALINHAMENTO:
+    - GridLayout: Componentes são todos do mesmo tamanho e são alinhados uniformemente.
+    - FlowLayout: Pode haver variações no alinhamento horizontal ou vertical.
+    - BorderLayout: Componentes em cada região mantêm o alinhamento automático, mas as regiões podem ter diferentes tamanhos.
 
 - CONCLUSÃO:
   - GridLayout:
@@ -98,7 +113,61 @@ O AbsoluteLayout permite posicionar os componentes em coordenadas específicas, 
   - BorderLayout:
     - Excelente para janelas principais onde diferentes áreas têm diferentes níveis de importância.
 
-<h2 align="left"> 🙋 Autores </h2>
+
+<h2 align="center"> Relatório Calculadora Moedas 💰 </h2>
+
+<h2 align="left"> DETALHES DO CÓDIGO ⚙️ </h2>
+
+- Bibliotecas:
+    - JavaSwing (javax.swing.*)
+    - JavaAWT (java.awt.*)
+- Layouts:
+    - GridLayout
+    - FlowLayout
+    - BorderLayout
+- Classe:
+    - Calculadora_idade
+    - extends JPanel - a classe Calculadora_idade herda os comportamentos e propriedades de JPanel que é um componente da biblioteca JavaSwing e serve como contêiner para a organização dos componentes.
+- Painéis | Contêiner:
+    - painelPrincipal:
+    - painelInput:
+    - painelOutput:
+    - painelBotao:
+- Componentes:
+    - JLabel
+    - JTextField
+    - JButton
+- Estilização:
+    - setfont
+    - setForeground
+    - setBackground
+    - setHorizontalAlignment
+    - setVerticalAlignment
+- Botão Calcular:
+    - É adicionado um ActionListener ao botão "Calcular". Quando o botão é pressionado, o código do método actionPerformed é executado.
+    - O código dentro deste método lida com a conversão de valores inseridos pelo usuário, realiza o cálculo e exibe o resultado.
+- Botão Resetar:
+    - Similar ao botão "Calcular", o botão "Resetar" também tem um ActionListener associado.
+    - Quando pressionado, ele limpa os campos de input e output.
+- Exceptions | try-catch:
+    - Dentro do bloco try-catch, o código lida com a possibilidade de o usuário inserir valores inválidos (não numéricos).
+- Organização:
+    - Para organizar melhor o código decidimos organizar da seguinte maneira:
+        - Criação dos painéis.
+        - Criação dos Componentes.
+            - Estilização dos componentes.
+        - Criação dos Botões.
+            - Estilização dos Botões.
+        - Adição dos elementos aos Painéis.
+        - Funções para Calcular.
+    - Além disso o código todo está comentado para melhor entendimento e compreensão no momento de debugar.
+
+<h2 align="center"> Relatório Calculadora Idade 📅 </h2>
+
+<h2 align="center"> Relatório Calculadora IMC ⚖️ </h2>
+
+
+<h2 align="left"> 🙋 AUTORES </h2>
 
 - Luigi
 - Rafael de Sousa Moura
