@@ -164,6 +164,43 @@
 
 <h2 align="center"> Relatório Calculadora Idade 📅 </h2>
 
+<h2 align="left"> DETALHES DO CÓDIGO ⚙️ </h2>
+
+## Introdução
+
+A Calculadora IMC em Java é uma aplicação gráfica desenvolvida para calcular o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário. Este relatório descreverá a estrutura do código, suas funcionalidades e as principais dificuldades enfrentadas durante o desenvolvimento.
+
+## Estrutura do Código
+
+O código está organizado de forma modular, utilizando a classe `Calculadora_IMC` que herda de `JPanel` e representa a interface gráfica da calculadora. Ele é composto por:
+
+- Rótulos (`JLabel`): `alturaUsuario`, `pesoUsuario`, `resultadoIMC` e três rótulos adicionais para exibir mensagens sobre a classificação do IMC.
+- Campos de Texto (`JTextField`): `campoAltura` e `campoPeso` para entrada de dados, e `campoResultado` para exibir o resultado do cálculo.
+- Botão (`JButton`): `botaoCalcular` para iniciar o cálculo do IMC.
+
+## Funcionalidades
+
+A aplicação possui as seguintes funcionalidades:
+
+1. O usuário pode inserir sua altura (em metros) e peso (em quilogramas) nos campos de texto correspondentes.
+2. Ao pressionar o botão "Calcular", o programa verifica se os valores são válidos e realiza o cálculo do IMC.
+3. Com base no resultado do cálculo, o programa exibe o IMC calculado e uma mensagem indicando se o usuário está abaixo do peso, no peso ideal ou acima do peso.
+4. As mensagens de classificação são exibidas com cores diferentes para facilitar a identificação.
+
+## Principais Dificuldades
+
+Durante o desenvolvimento, algumas das principais dificuldades encontradas foram:
+
+1. *Manipulação de Componentes Gráficos*: Garantir que os componentes gráficos fossem adicionados corretamente aos painéis e que estivessem dispostos de forma adequada.
+2. *Tratamento de Eventos*: Implementar a lógica de cálculo do IMC e a exibição das mensagens de classificação com base nos valores fornecidos pelo usuário.
+3. *Controle de Exceções*: Lidar com possíveis exceções que podem ocorrer ao tentar converter os valores de texto para números.
+
+## Conclusão
+
+A Calculadora IMC em Java proporciona uma interface simples e interativa para calcular o Índice de Massa Corporal. Ela foi desenvolvida de forma modular e utiliza componentes gráficos para proporcionar uma experiência amigável ao usuário.
+
+Para futuras melhorias, pode-se considerar a adição de validações adicionais e aprimoramentos na interface gráfica para proporcionar uma experiência ainda mais intuitiva.
+
 <h2 align="center"> Relatório Calculadora IMC ⚖️ </h2>
 
 
@@ -172,8 +209,3 @@
 - Luigi
 - Rafael de Sousa Moura
 - Vinícius
-
-
-    
-
-
