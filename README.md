@@ -4,11 +4,16 @@
 
 <h3 align="left"> Calculadora Idade </h3>
 
+- O código cria uma aplicação gráfica simples para conversão de idades com base nas datas inseridas.
+- A interface é intuitiva, com campos de entrada para valores de data, e botão para calcular.
+- Além do Layout que foi o principal objeto de estudo, também conseguimos deixar a calculadora funcional, usando funções e o tryCatch para fazer a validação.
 - <a href="Calculadoras/Relatórios/CalculadoraIdade.md">Relatório Calculadora Idade</a> 
-
 
 <h3 align="left"> Calculadora IMC </h3>
 
+- O código cria uma aplicação gráfica simples para cálculo do IMC (Índice de Massa Corporal).
+- A interface é intuitiva, com campos de entrada para valores em Metros (Altura) e KG (Peso), além do botaõ de calcular.
+- Além do Layout que foi o principal objeto de estudo, também conseguimos deixar a calculadora funcional, usando funções e o tryCatch para fazer a validação.
 - <a href="Calculadoras/Relatórios/CalculadoraIMC.md">Relatório Calculadora IMC</a> 
 
 <h3 align="left"> Calculadora Moeda </h3>
@@ -116,7 +121,7 @@
 
 <h2 align="center"> Relatório Calculadora Moedas 💰 </h2>
 
-<h2 align="left"> DETALHES DO CÓDIGO ⚙️ </h2>
+<h3 align="left"> DETALHES DO CÓDIGO ⚙️ </h3>
 
 - Bibliotecas:
     - JavaSwing (javax.swing.*)
@@ -164,7 +169,7 @@
 
 <h2 align="center"> Relatório Calculadora Idade 📅 </h2>
 
-<h2 align="left"> DETALHES DO CÓDIGO ⚙️ </h2>
+<h3 align="left"> DETALHES DO CÓDIGO ⚙️ </h3>
 
 ## Introdução
 
@@ -202,6 +207,32 @@ A Calculadora IMC em Java proporciona uma interface simples e interativa para ca
 Para futuras melhorias, pode-se considerar a adição de validações adicionais e aprimoramentos na interface gráfica para proporcionar uma experiência ainda mais intuitiva.
 
 <h2 align="center"> Relatório Calculadora IMC ⚖️ </h2>
+
+<h3 align="left"> DETALHES DO CÓDIGO ⚙️ </h3>
+
+### Layouts Utilizados
+Utilizamos em uma aplicação de calculadora de idade desenvolvida em Java Swing, dois dos três layouts indicados. Avaliamos esses layouts com base em critérios objetivos e subjetivos para determinar sua adequação e eficácia na organização da interface do usuário.
+
+### BorderLayout:
+Usabilidade: O BorderLayout foi considerado uma escolha adequada para os componentes principais da aplicação. Ele organiza os componentes em cinco áreas predefinidas: norte, sul, leste, oeste e centro. Isso ajuda a criar uma interface de usuário intuitiva, com o campo de entrada de data de nascimento na parte superior, o botão "Calcular" no centro e a exibição do resultado na parte inferior.
+Ajustabilidade: Embora o BorderLayout tenha limitações em termos de flexibilidade, para esta aplicação, a disposição dos elementos se encaixa bem nas áreas predefinidas, tornando-o ajustável o suficiente.
+Eficiência de Código: A implementação do BorderLayout é clara e direta, sem complexidade excessiva. Isso contribui para a eficiência do código.
+Estética: O uso do BorderLayout resulta em uma interface de usuário organizada e limpa. A disposição dos componentes é lógica e agradável esteticamente.
+
+### FlowLayout:
+Usabilidade: O FlowLayout não é apropriado para a organização dos componentes principais desta aplicação. Ele coloca os componentes em uma única linha, o que não se encaixa bem para o campo de entrada de data e o botão "Calcular". Contudo, acreditamos que tenha sido uma boa escolha, ja que não foram criados muitos componentes.
+Ajustabilidade: O FlowLayout permite que os componentes fluam naturalmente, mas não é ideal para organizar elementos em várias linhas ou colunas, o que é necessário neste caso.
+Eficiência de Código: Embora o código que utiliza o FlowLayout seja eficiente, a escolha desse layout não é apropriada para a interface principal.
+Estética: O FlowLayout não resulta em uma estética agradável para a organização dos componentes principais.
+
+### GridLayout:
+Usabilidade: O GridLayout é apropriado para a exibição do resultado da idade, pois organiza os componentes em uma grade de células de tamanho igual. Isso ajuda a criar uma exibição organizada e fácil de ler. Porém, por se tratar de ua aplicação simples, optamos pelo FlowLayout. 
+Ajustabilidade: O GridLayout é adequado para exibir resultados, pois os componentes se ajustam facilmente à grade, adaptando-se ao tamanho da janela.
+Eficiência de Código: A implementação do GridLayout é simples e eficiente, adequada para a finalidade de exibir o resultado da idade.
+Estética: O GridLayout é esteticamente apropriado para a exibição do resultado, pois organiza o texto de forma organizada e uniforme.
+
+### Conclusão:
+Com base na análise dos critérios objetivos e subjetivos, concluímos que o BorderLayout é a escolha mais apropriada para organizar os componentes principais da calculadora de idade, enquanto o GridLayout é adequado para a exibição do resultado da idade. Ambos os layouts contribuem para uma interface de usuário funcional, organizada e esteticamente agradável, atendendo às necessidades do aplicativo.
 
 
 <h2 align="left"> 🙋 AUTORES </h2>
