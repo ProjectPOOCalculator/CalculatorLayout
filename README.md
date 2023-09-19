@@ -237,6 +237,6 @@ Com base na análise dos critérios objetivos e subjetivos, concluímos que o Bo
 
 <h2 align="left"> 🙋 AUTORES </h2>
 
-- Luigi
+- Luigi Souza
 - Rafael de Sousa Moura
 - Vinícius Granço Feitoza
